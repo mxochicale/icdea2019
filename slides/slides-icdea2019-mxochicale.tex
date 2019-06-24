@@ -1,0 +1,142 @@
+\documentclass[compress]{beamer}
+%--------------------------------------------------------------------------
+% Common packages
+%--------------------------------------------------------------------------
+\usepackage[english]{babel}
+\usepackage{pgfpages} % required for notes on second screen
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{multicol}
+\usepackage[normalem]{ulem}
+
+\usepackage{tabularx,ragged2e}
+\usepackage{booktabs}
+\usepackage{marvosym}
+
+%font
+%\usepackage{fontawesome}
+%\usepackage[tt=false, type1=true]{libertine}
+%\usepackage[T1]{fontenc}
+%\usefonttheme[onlymath]{serif}
+
+\usepackage{unicode-math}
+
+\usepackage{tikz}
+\usetikzlibrary{calc,shapes,shadows}
+\usetikzlibrary{fadings}
+
+\setbeamertemplate{caption}[numbered]
+
+
+%--------------------------------------------------------------------------
+% Load theme
+%--------------------------------------------------------------------------
+\usetheme{mx}
+\graphicspath{{figs/}}
+
+
+%--------------------------------------------------------------------------
+% General presentation settings
+%--------------------------------------------------------------------------
+\title{
+Quantifying Movement Variability \\ 
+with Nonlinear Dynamics for \\ 
+Human-Humanoid Interaction
+} 
+\subtitle{
+ICDEA 2019 \\
+UCL 
+}
+\date{}
+%\date{3 June 2019}
+
+\author{
+{\footnotesize Miguel Xochicale} \\ 
+{\scriptsize \url{https:// github.com/mxochicale/}  }
+}
+
+%\institute{
+%School of  \\
+%{\bf University of, UK}
+%}
+
+
+%--------------------------------------------------------------------------
+% Notes settings
+%--------------------------------------------------------------------------
+%\setbeameroption{show notes on second screen}
+%\setbeameroption{hide notes}
+
+
+\begin{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\licenseframe{https://github.com/mxochicale/icdea2019}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\maketitle
+
+\begin{frame}{Overview}
+\tableofcontents
+\end{frame}
+
+
+
+%--------------------------------------------------------------------------
+% Content
+%--------------------------------------------------------------------------
+
+
+\input{tex-files/phd}
+\input{tex-files/conclusions}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\closingtitle
+
+%\section{References}
+
+\subsection{}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{References}
+    \begin{thebibliography}{10}
+
+\beamertemplatearticlebibitems
+
+	\bibitem{xochicale2019}
+	Xochicale M.
+	\newblock \doublequoted{
+	Nonlinear Analysis to Quantify Movement 
+	Variability in Human-Humanoid Interaction
+	} 
+      	\newblock Open Access Ph.D. Thesis (2019) 
+      	\newblock \url{https:// github.com/mxochicale/phd-thesis}
+
+	\bibitem{xochicale2018}
+	Xochicale M. and Baber C.
+	\newblock \doublequoted{
+	Strengths and Weaknesses of Recurrent Quantification 
+	Analysis in the context of Human-Humanoid Interaction.
+	}
+	\newblock {\em preprint, arXiv} \url{https://arxiv.org/abs/1810.09249}
+
+
+	\bibitem{marwan2007} 
+	Marwan, N., Romano, M. C., Thiel, M., and Kurths, J.
+	\newblock Recurrence plots for the analysis of complex systems.
+	\newblock {\em Physics Reports}, 438(5):237 -- 329.
+
+
+    \end{thebibliography}
+\end{frame}
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\licenseframe{https://github.com/mxochicale/icdea2019}
+
+
+\end{document}

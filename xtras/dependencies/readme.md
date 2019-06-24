@@ -1,0 +1,7 @@
+
+
+* inkscape
+* latex
+* pdftk
+
+
